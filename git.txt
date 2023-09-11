@@ -1,0 +1,30 @@
+git init ---  "initialize the repository"
+
+git add anyfile.txt --- # stage a specific file
+
+git add . --- "track changes for current and upcoming commits for all files"
+
+git commit -m 'message of the commit' --- "snapshot of the changes and captures them since last commit"
+
+git push -u origin main --- "send your local files to remote repository by associating local branch with the remote branch"
+                        --- "where origin means the default name for the remote repository created and main as the name of the branch."
+
+The '-u' {--set-upstream} flag is setting up a tracking relationship between local "main" branch and the remote "main" branch on "origin".
+This allows you to simply use 'git pull' or 'git push' without specifiying the remote and branch each time, as Git remembers the upstream branch.
+
+git branch --- "Shows all the branches available"
+
+git branch "branchName" --- "Creates a branch"
+
+git checkout "branchName" --- "Switch branches"
+
+git checkout -b "branchName" --- "Combine the creating and switching branches"
+
+git pull --- " fetches changes from the remote repository and merges them into your current branch"
+
+git push --- "pushes your local commits to the remote repository"
+
+git merge "branchName" --- "Merges changes from one branch into the current branch"
+
+git status --- "shows the status of working directory"
+
