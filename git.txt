@@ -81,4 +81,6 @@ git clone <url> --- "Download a remote repo from a url"
 
 git clone <url> <folder_name> --- "Download a remote repo and give it a different folder name"
 
-
+git fetch --- "updates all remote tracking branches and retreive changes from remote repository to your local repository"
+              "unlike git pull, this only fetches the changes and updates the remote branch references where as git pull, also
+              "fetches the changes and merges them into your current branch."
