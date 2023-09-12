@@ -64,4 +64,3 @@ git remote remove origin  --- "Removes a link to the remote repository named ori
 
 git config --global credentials.username <username> --- "Configure your GitHub username so you can get access to your GitHub Repository"
 
-git push <remote_name> <branch>
