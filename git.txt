@@ -1,5 +1,8 @@
 git init ---  "initialize the git repository"
 
+git config --global user.name "Your Name"
+git config --global user.email "yourname@example.com" --- "set up your name and email for commits"
+
 git add anyfile.txt --- # stage a specific file
 
 git add . --- "track changes for current and upcoming commits for all files"
