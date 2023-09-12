@@ -51,3 +51,17 @@ git config --global alias.shortcut <git command> --- "Creates an alias or shortc
 git config --global alias.s "status" --- "When you type `git s = git status `
 
 Create a file called `.gitignore` - Tell git which files to ignore / should not track in your local repository
+
+**Uploading Code to GitHub**
+
+git remote add <remote_name> <url> --- "Link a local repository to a remote repository and give a name for this link"
+git remote add origin https://github.com/Druky1/git_basics.git 
+
+git remote -v --- "List all the remote repositories that are linked
+
+git remote remove <remote_name> --- "Removes a link to a remote repository"
+git remote remove origin  --- "Removes a link to the remote repository named origin"
+
+git config --global credentials.username <username> --- "Configure your GitHub username so you can get access to your GitHub Repository"
+
+git push <remote_name> <branch>
