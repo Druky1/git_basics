@@ -1,3 +1,5 @@
+A repository means a folder which is tracked by Git.
+
 git init ---  "initialize the git repository"
 
 git add anyfile.txt --- # stage a specific file
