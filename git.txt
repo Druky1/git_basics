@@ -15,6 +15,8 @@ git push origin main --- "Upload the branch "main" to the remote repository name
 git push -u origin main --- "send your local files to remote repository by associating local branch with the remote branch"
                         --- "where origin means the default name for the remote repository created and main as the name of the branch."
 
+git push origin main -f --- "force-push the branch to the remote repository even if it overwrites what's on the remote repo"
+
 The '-u' {--set-upstream} flag is setting up a tracking relationship between local "main" branch and the remote "main" branch on "origin".
 This allows you to simply use 'git pull' or 'git push' without specifiying the remote and branch each time, as Git remembers the remote repo & the upstream branch.
 
