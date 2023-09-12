@@ -10,6 +10,8 @@ git commit -m 'message of the commit' --- "snapshot of the changes and captures 
 
 git commit -m 'message of the commit' --amend "Update previous commit instead of creating new one"
 
+git push origin main --- "Upload the branch "main" to the remote repository named "origin". "
+
 git push -u origin main --- "send your local files to remote repository by associating local branch with the remote branch"
                         --- "where origin means the default name for the remote repository created and main as the name of the branch."
 
