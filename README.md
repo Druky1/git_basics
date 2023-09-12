@@ -1,5 +1,14 @@
 # GitHub_Markdown
  GitHub uses a syntax called **Markdown** to help you add basic text formatting to Issues, Pull Requests and files with `.md` extension.
+ In GitHub, A repository means a folder which is tracked by Git.
+
+ - It is a service that lets us save our git repositories online. It also helps us:
+ * backup our code in case we delete it on our local system.
+ * see the history of the code changes more easily, making version control more flexible.
+
+ Local Repository = a git repo saved on our local system.
+ Remote Repository = a git repo saved online (for example on GitHub)
+
 
  # Commonly Used Markdown Syntax
  
