@@ -4,6 +4,8 @@ git add anyfile.txt --- # stage a specific file
 
 git add . --- "track changes for current and upcoming commits for all files"
 
+git reset . --- "put the changes back to working section instead of the staging section"
+
 git commit -m 'message of the commit' --- "snapshot of the changes and captures them since last commit"
 
 git commit -m 'message of the commit' --amend "Update previous commit instead of creating new one"
