@@ -40,3 +40,12 @@ git log --- "shows the user details along with the branch and commits worked upo
 **Viewing Previous Commits** 
 
 git checkout <commit_hash|branch_name> --- "view a previous commit" 
+
+**Restoring Previous Commits**
+
+git checkout <hash|branch> <file|folder> or . --- "Restores the content of files back to a previous commit"
+
+**Other features of Git**
+
+git config --global alias.shortcut <git command> --- "Creates an alias or shortcut as you like for the git commands"
+git config --global alias.s "status" --- "When you type `git s = git status `
