@@ -35,3 +35,8 @@ git merge "branchName" --- "Merges changes from one branch into the current bran
 git status --- "shows the status of working directory"
 
 git log --- "shows the user details along with the branch and commits worked upon"
+
+
+**Viewing Previous Commits** 
+
+git checkout <commit_hash|branch_name> --- "view a previous commit" 
