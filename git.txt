@@ -35,7 +35,7 @@ git checkout -b "branchName" --- "Combine the creating and switching branches"
 
 git pull --- " fetches changes from the remote repository and merges them into your current branch"
 
-git pull origin main --set-upstream - "remembers the repo and the branch for future pulls"
+git pull origin main --set-upstream or -u - "remembers the repo and the branch for future pulls"
 
 git push --- "pushes your local commits to the remote repository"
 
