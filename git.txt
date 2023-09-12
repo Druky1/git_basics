@@ -1,4 +1,4 @@
-git init ---  "initialize the repository"
+git init ---  "initialize the git repository"
 
 git add anyfile.txt --- # stage a specific file
 
