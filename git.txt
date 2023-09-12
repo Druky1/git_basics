@@ -18,7 +18,7 @@ git branch "branchName" --- "Creates a branch"
 
 git checkout "branchName" --- "Switch branches"
 
-git switch "branchName" --- "Also switch branches"
+git switch "branchName" 
 
 git checkout -b "branchName" --- "Combine the creating and switching branches"
 
