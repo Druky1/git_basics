@@ -24,5 +24,9 @@ A `#` followed by the number of an issue or pull request (without a space) in th
 ## :smiley:
 Tone is easily lost in written communication. To help, GitHub allows you to drop emoji into your comments. Simply surround the emoji ID with `:`.
 
- 
+--------------------------------------------------------------------------------------------------------------------------------
+
+- Pull requests are used to propose changes to the project files.
+- Pull request is considered "work in progress" until it is merged into the project.
+
  
