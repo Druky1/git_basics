@@ -6,6 +6,8 @@ git add . --- "track changes for current and upcoming commits for all files"
 
 git commit -m 'message of the commit' --- "snapshot of the changes and captures them since last commit"
 
+git commit -m 'message of the commit' --amend "Update previous commit instead of creating new one"
+
 git push -u origin main --- "send your local files to remote repository by associating local branch with the remote branch"
                         --- "where origin means the default name for the remote repository created and main as the name of the branch."
 
@@ -30,3 +32,4 @@ git merge "branchName" --- "Merges changes from one branch into the current bran
 
 git status --- "shows the status of working directory"
 
+git log --- "shows the user details along with the branch worked upon"
