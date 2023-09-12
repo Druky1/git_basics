@@ -63,4 +63,3 @@ git remote remove <remote_name> --- "Removes a link to a remote repository"
 git remote remove origin  --- "Removes a link to the remote repository named origin"
 
 git config --global credentials.username <username> --- "Configure your GitHub username so you can get access to your GitHub Repository"
-
